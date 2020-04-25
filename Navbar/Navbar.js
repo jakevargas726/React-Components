@@ -1,13 +1,13 @@
 import React from 'react';
 import MenuButton from './MenuButton.js';
 
-const toolbar = props => (
-    <header className="toolbar">
-        <nav className="navigation">
-            <div><MenuButton click={props.menuClickHandler} /></div>
-            <div className="brand"><a href="#">Jake Vargas</a></div>
+const navbar = props => (
+    <header className="head">
+        <nav className="navbar">
+            <div><MenuButton /></div>
+            <div className="brand"><a href="#">LOGO</a></div>
             <div className="spacer"></div>
-            <div className="navigation-items">
+            <div className="navbar-items">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -19,4 +19,4 @@ const toolbar = props => (
     </header>
 );
 
-export default toolbar;
+export default navbar;

@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuButton from './MenuButton.js';
+import MenuButton from '../MenuButton/MenuButton';
 
 const navbar = props => (
     <header className="head">
